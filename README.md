@@ -2,6 +2,7 @@
 Uma api para http://www.mmoserverstatus.com/pokemongo que busca o status dos servidores!
 ##Exemplo de uso
 ```sh
+include("Server.php");
 $dom = new DOMDocument();
 $dom->loadHTMLFile('http://www.mmoserverstatus.com/pokemongo');
 $ListaDeNomes = array("Google Login", "Poke Club Login", "United States", "Mexico", "Peru" , "Venezuela", "Canada", "Portugal", "Spain", "Argentina", "Brazil", "Chile");
