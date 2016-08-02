@@ -1,4 +1,4 @@
-libxml_use_internal_errors(true);
+<?php libxml_use_internal_errors(true);
 class Servidor{
 	public $ServerName = "";
 	public $ServerPing = "";
@@ -34,3 +34,4 @@ class Servidor{
 		}
 	}
 }
+?>
